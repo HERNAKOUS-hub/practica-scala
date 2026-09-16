@@ -1,45 +1,58 @@
 # Entorno 1.3 — IntelliJ IDEA Community + sbt + Scala 2.12.21
 
 ## Objetivo
+Preparar un entorno de desarrollo utilizando IntelliJ IDEA Community Edition, configurando el soporte para Scala mediante el plugin oficial.
 
-Preparar un entorno de desarrollo integrado (IDE) utilizando **IntelliJ IDEA Community Edition**, configurando el soporte para el lenguaje mediante el plugin oficial de **Scala** y utilizando **sbt** como sistema de construcción de proyectos.
+## 1. Instalación del IDE y Plugin
 
----
+Comencé descargando la versión Community de IntelliJ IDEA desde la base de conocimientos oficial de JetBrains.
 
-## 1. Requisitos e instalación
+![Descarga de IntelliJ](IMG/intellij-descarga-desde-knowledge-base.png)
 
-Para configurar este entorno se descargó e instaló el IDE y se le añadió el soporte específico para Scala:
+Procedí con la instalación del software en Windows 11.
 
-- **IntelliJ IDEA:** Descarga de la versión **Community Edition (2023.3.8)**.
-- **Plugin de Scala:** Instalado directamente desde el Marketplace en la pantalla de bienvenida del IDE para habilitar el soporte completo del lenguaje.
+![Proceso de instalación de IntelliJ](IMG/intellij-instalador-en-proceso.png)
 
----
+Una vez iniciado el IDE, en la pantalla de bienvenida accedí a la sección de Marketplace y busqué el plugin de Scala.
 
-## 2. Configuración del proyecto y JDK
+![Búsqueda del plugin de Scala](IMG/intellij-bienvenida-busqueda-plugin-scala.png)
 
-Se procedió a crear un nuevo proyecto configurando las herramientas de compilación y el entorno de ejecución de Java:
+Instalé el plugin exitosamente para habilitar el soporte completo del lenguaje en el editor.
 
-1. **Creación del proyecto:** Se configuró un nuevo proyecto (`scala-intellij`) seleccionando **sbt** como sistema de construcción (Build system).
-2. **Descarga del JDK:** Desde el propio asistente de IntelliJ se descargó e instaló automáticamente **Microsoft OpenJDK 17** para asegurar la compatibilidad.
+![Plugin de Scala instalado](IMG/intellij-plugin-scala-instalado.png)
 
----
+## 2. Creación del Proyecto
 
-## 3. Verificación de la versión de Scala y ejecución de código
+Creé un nuevo proyecto y en la configuración inicial seleccioné `sbt` como sistema de construcción (Build system).
 
-Una vez generado el proyecto, se escribió el código de prueba en el archivo `Main.scala` y se comprobó su correcta compilación y ejecución.
+![Configuración inicial del nuevo proyecto](IMG/intellij-nuevo-proyecto-configuracion-inicial.png)
 
-La compilación y ejecución se realizaron mediante la interfaz gráfica del IDE (botón **Run**), obteniendo un resultado exitoso con exit code 0.
+Como parte de la configuración, indiqué al IDE que descargara e integrara automáticamente Microsoft OpenJDK 17.
 
----
+![Descarga de JDK 17 de Microsoft](IMG/intellij-descarga-jdk-microsoft-17.png)
 
-## Incidencias y soluciones
+Una vez cargado el proyecto, generé la estructura de directorios y redacté el código de validación en `Main.scala`.
 
-Durante las pruebas de compilación manual a través de línea de comandos en este entorno, surgió el siguiente inconveniente:
+![Código fuente del Main creado](IMG/intellij-proyecto-creado-codigo-main-scala.png)
 
-### Comandos `sbt` y `cs` no reconocidos en la terminal local de IntelliJ
+## 3. Resolución de Incidencias y Ejecución
 
-- **Problema:**  
-  Al intentar ejecutar `sbt compile` desde la pestaña **Terminal** (que lanza la sesión de PowerShell de Windows), el sistema arrojó errores indicando que los comandos no eran reconocidos, debido a la ausencia de rutas en el `PATH`.
+Inicialmente, intenté ejecutar `sbt` utilizando la terminal de PowerShell local integrada en el IDE, pero el comando no fue reconocido por el sistema debido a la falta de variables de entorno.
 
-- **Solución:**  
-  En lugar de modificar el `PATH` general o usar la PowerShell local, se utilizó la **consola sbt interactiva** (sbt shell) proporcionada de forma nativa por IntelliJ IDEA. Desde allí, los comandos `compile` y `run` se ejecutaron directamente con éxito sobre el entorno integrado del proyecto.
+![Error en la terminal nativa con sbt](IMG/intellij-terminal-error-sbt.png)
+
+Para solucionarlo, recurrí a la consola sbt interactiva (sbt shell) nativa de IntelliJ. Primero, probé a lanzar la consola interactiva y ejecutar código directamente.
+
+![Ejecución interactiva en consola sbt](IMG/intellij-consola-sbt-interactiva-run.png)
+
+Tras comprobar que funcionaba, ejecuté el comando `compile` dentro del entorno interactivo de sbt, logrando una compilación exitosa.
+
+![Compilación exitosa en sbt interactivo](IMG/intellij-consola-sbt-compile-exitoso.png)
+
+Finalmente, también verifiqué el proceso usando los botones gráficos del IDE. Observé la salida de construcción del proyecto (`Build Output`).
+
+![Salida de construcción del IDE](IMG/intellij-compilacion-build-output.png)
+
+El código se ejecutó con éxito mostrando los resultados por consola y devolviendo un código de salida 0.
+
+![Ejecución exitosa del programa](IMG/intellij-ejecucion-exitosa-run.png)
