@@ -1,0 +1,145 @@
+2026.09.16 10:47:42 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\HERNAN\Desktop\scala-vscode' for client Visual Studio Code 1.122.1.
+2026.09.16 10:47:42 INFO  Memory monitor started
+2026.09.16 10:47:42 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.16 10:47:44 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:47:49 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:47:49 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala
+2026.09.16 10:47:49 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\build.sbt
+2026.09.16 10:47:51 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:47:51 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:47:51 INFO  time: code lens generation in 1.73s
+2026.09.16 10:47:54 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\build.sbt
+2026.09.16 10:47:54 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:47:54 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:48:04 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:05 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:04 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:06 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:06 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:48:06 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala
+2026.09.16 10:48:06 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:06 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/src/main/scala/Main.scala
+2026.09.16 10:48:11 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:11 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:12 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:12 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:15 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:15 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:15 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala
+2026.09.16 10:48:15 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+sept 16, 2026 10:48:15 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+2026.09.16 10:48:15 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:15 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:16 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:15 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:15 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:48:51 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\build.sbt
+2026.09.16 10:48:51 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:51 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:51 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:48:51 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\build.sbt
+2026.09.16 10:48:51 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:51 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:51 INFO  skipping build import with status 'Dismissed'
+2026.09.16 10:48:51 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:48:52 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala
+2026.09.16 10:48:52 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:51 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:51 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:48:51 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala
+2026.09.16 10:48:52 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:51 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:48:51 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:49:17 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\build.sbt
+2026.09.16 10:49:17 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:17 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:17 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:49:17 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala
+2026.09.16 10:49:17 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:17 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:17 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:49:20 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:20 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala
+2026.09.16 10:49:20 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:20 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:20 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:29 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:29 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\build.sbt
+2026.09.16 10:49:29 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:30 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:30 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:49:29 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:29 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:30 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala
+2026.09.16 10:49:29 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:30 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:49:29 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:32 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:32 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\build.sbt
+2026.09.16 10:50:32 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:32 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:32 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:50:32 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:33 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\build.sbt
+2026.09.16 10:50:33 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:33 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:50:33 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:33 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:50:36 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.13.0 -jar C:\Users\HERNAN\AppData\Local\Temp\metals3381580445218001122\sbt-launch.jar -Dbloop.export-jar-classifiers=sources -Dbloop.export-meta-build=true bloopInstall'
+2026.09.16 10:50:36 ERROR [info] [launcher] getting org.scala-sbt sbt 1.13.0  (this may take some time)...
+2026.09.16 10:50:36 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\project\metals.sbt
+2026.09.16 10:50:36 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:36 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\project\project\metals.sbt
+2026.09.16 10:50:36 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:36 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:36 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:50:48 ERROR [info] [launcher] getting Scala 2.12.21 (for sbt)...
+2026.09.16 10:50:49 INFO  [info] Updated file C:\Users\HERNAN\Desktop\scala-vscode\project\build.properties: set sbt.version to 1.13.0
+2026.09.16 10:50:49 INFO  [info] welcome to sbt 1.13.0 (Oracle Corporation Java 21.0.8)
+2026.09.16 10:50:50 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:50 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:50 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:50:50 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:52 INFO  [info] loading settings for project scala-vscode-build-build from metals.sbt...
+2026.09.16 10:50:52 INFO  [info] loading project definition from C:\Users\HERNAN\Desktop\scala-vscode\project\project
+2026.09.16 10:50:57 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:57 INFO  [info] loading settings for project scala-vscode-build from metals.sbt...
+2026.09.16 10:50:57 INFO  [info] loading project definition from C:\Users\HERNAN\Desktop\scala-vscode\project
+2026.09.16 10:50:57 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:57 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:57 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:57 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:50:58 WARN  no build target for: C:\Users\HERNAN\Desktop\scala-vscode\build.sbt
+2026.09.16 10:50:57 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:57 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:50:58 INFO  no build target found for C:\Users\HERNAN\Desktop\scala-vscode\build.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.16 10:50:58 WARN  Could not find semantic tokens for: file:///C:/Users/HERNAN/Desktop/scala-vscode/build.sbt
+2026.09.16 10:51:03 INFO  [success] Generated .bloop\scala-vscode-build.json
+2026.09.16 10:51:03 INFO  [success] Total time: 5 s, completed 16 sept 2026, 10:51:03
+2026.09.16 10:51:04 INFO  [info] loading settings for project scala-vscode from build.sbt...
+2026.09.16 10:51:04 INFO  [info] set current project to scala-vscode (in build file:/C:/Users/HERNAN/Desktop/scala-vscode/)
+2026.09.16 10:51:04 INFO  [success] Generated .bloop\scala-vscode.json
+2026.09.16 10:51:04 INFO  [success] Generated .bloop\scala-vscode-test.json
+2026.09.16 10:51:04 INFO  [success] Total time: 0 s, completed 16 sept 2026, 10:51:05
+2026.09.16 10:51:05 INFO  time: ran 'sbt bloopInstall' in 28s
+2026.09.16 10:51:05 INFO  Attempting to connect to the build server...
+2026.09.16 10:51:05 INFO  No running Bloop server found, starting one.
+2026.09.16 10:51:15 INFO  Starting compilation server
+2026.09.16 10:51:16 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\HERNAN\Desktop\scala-vscode\.metals\bsp.trace.json or C:\Users\HERNAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.16 10:51:21 INFO  Attempting to connect to the build server...
+2026.09.16 10:51:21 INFO  Found a Bloop server running
+2026.09.16 10:51:21 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at C:\Users\HERNAN\Desktop\scala-vscode\project\.metals\bsp.trace.json or C:\Users\HERNAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.09.16 10:51:21 INFO  time: Connected to build server in 16s
+2026.09.16 10:51:21 INFO  Connected to Build server: Bloop v2.1.2
+2026.09.16 10:51:21 INFO  time: Imported build in 0.15s
+2026.09.16 10:51:27 INFO  time: code lens generation in 4.17s
+2026.09.16 10:51:29 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.16 10:51:46 INFO  time: indexed workspace in 24s
+2026.09.16 10:51:46 INFO  compiling scala-vscode (1 scala source)
+2026.09.16 10:51:46 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.21. Compiling...
+2026.09.16 10:51:57 INFO  Compilation completed in 10.237s.
+2026.09.16 10:52:00 INFO  time: compiled scala-vscode in 14s
+2026.09.16 10:52:01 INFO  skipping build import with status 'Installed'
+sept 16, 2026 10:52:08 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

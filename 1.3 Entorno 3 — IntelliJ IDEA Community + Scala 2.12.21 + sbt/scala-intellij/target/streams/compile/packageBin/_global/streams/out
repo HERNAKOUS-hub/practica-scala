@@ -1,0 +1,9 @@
+[debug] Packaging C:\Users\HERNAN\IdeaProjects\scala-intellij\target\scala-2.12\scala-intellij_2.12-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	Main$.class
+[debug] 	  C:\Users\HERNAN\IdeaProjects\scala-intellij\target\scala-2.12\classes\Main$.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	  C:\Users\HERNAN\IdeaProjects\scala-intellij\target\scala-2.12\classes\Main$delayedInit$body.class
+[debug] 	Main.class
+[debug] 	  C:\Users\HERNAN\IdeaProjects\scala-intellij\target\scala-2.12\classes\Main.class
+[debug] Done packaging.
