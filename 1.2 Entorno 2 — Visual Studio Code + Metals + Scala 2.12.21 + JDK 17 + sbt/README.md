@@ -1,80 +1,57 @@
 # Entorno 1.2 — Visual Studio Code + Metals + sbt + Scala 2.12.21
 
 ## Objetivo
+Preparar un entorno de desarrollo basado en Visual Studio Code, utilizando la extensión Metals y sbt.
 
-Preparar un entorno de desarrollo basado en el editor **Visual Studio Code**, utilizando la extensión **Metals** para proporcionar características avanzadas de IDE para Scala, y **sbt** como herramienta de construcción del proyecto.
+## 1. Verificación de Versiones y Java
 
----
+Comencé verificando la versión actual de Visual Studio Code instalada en mi sistema operativo.
 
-## 1. Requisitos e instalación
+![Versión del sistema y VS Code](IMG/vscode-version-sistema.png)
 
-Para configurar este entorno se parte de una instalación base de **Visual Studio Code** en **Windows 11** y se añaden las herramientas necesarias:
+Al comprobar la versión de Java en el sistema, detecté que la versión inicial por defecto era la 21, lo cual podía generar problemas de compatibilidad.
 
-- **Java (JDK 17):** Previamente configurado en el sistema como requisito base.
-- **Scala (Metals):** Extensión oficial instalada desde el Marketplace de VS Code para habilitar el soporte del lenguaje, autocompletado y análisis de código.
+![Verificación inicial de Java 21](IMG/verificacion-java-21-inicial.png)
 
-### Evidencias de instalación
+Utilizando Coursier, forcé la instalación y el uso de JDK 17.
 
-- **Versión del sistema:**
+![Coursier instalando JDK 17](IMG/coursier-setup-jvm-17-completado.png)
 
-  ![Versión de Visual Studio Code](images/01-vscode-version-sistema.png)
+Posteriormente, verifiqué que el cambio se había aplicado correctamente y el entorno ya apuntaba a Java 17.
 
-- **Extensión Metals instalada:**
+![Verificación de JDK 17 activo](IMG/coursier-setup-jvm-17-verificacion.png)
 
-  ![Extensión Scala Metals instalada](images/03-vscode-extension-metals-instalada.png)
+## 2. Instalación de la Extensión Metals
 
----
+Desde la sección de extensiones de Visual Studio Code busqué la extensión oficial de Scala (Metals).
 
-## 2. Configuración del proyecto y sbt
+![Búsqueda de la extensión Metals](IMG/vscode-extension-metals-busqueda.png)
 
-Se creó la estructura de directorios estándar para un proyecto de Scala y se configuró la herramienta de construcción.
+Procedí a instalarla para habilitar las funcionalidades de autocompletado y validación de código.
 
-En la raíz del proyecto se creó el archivo `build.sbt` para definir las propiedades básicas y asegurar el uso de la versión exacta de Scala requerida para la práctica:
+![Extensión Metals instalada](IMG/vscode-extension-metals-instalada.png)
 
-```scala
-name := "scala-vscode"
-scalaVersion := "2.12.21"
-```
+## 3. Configuración del Proyecto y sbt
 
----
+Para inicializar el entorno, definí las dependencias en el archivo `build.sbt`, marcando explícitamente el uso de Scala 2.12.21.
 
-## 3. Verificación de la versión de Scala y ejecución de código
+![Configuración del archivo build.sbt](IMG/vscode-proyecto-y-build-sbt.png)
 
-Dentro de la ruta `src/main/scala/` se creó el archivo `Main.scala` con un objeto de prueba para validar el correcto funcionamiento del entorno.
+Creé la estructura de carpetas estándar (`src/main/scala`) y añadí el archivo principal del programa.
 
-La compilación y ejecución se realizaron directamente desde la terminal integrada de Visual Studio Code utilizando los comandos de **sbt**:
+![Estructura del proyecto](IMG/vscode-estructura-proyecto-y-codigo-main.png)
 
-**1. Compilación del proyecto:**
+En el archivo `Main.scala`, redacté el código básico para realizar la prueba de ejecución.
 
-```bash
-sbt compile
-```
+![Código en Main.scala](IMG/vscode-codigo-main-scala.png)
 
-**2. Ejecución del código:**
+## 4. Resolución de problemas y Ejecución
 
-```bash
-sbt run
-```
+Al intentar ejecutar `sbt`, me encontré con problemas de reconocimiento de comandos. Tras revisar la configuración, corregí las variables de entorno añadiendo la ruta correcta al PATH y realicé una prueba verificando sbt.
 
-- Ejecución exitosa en la terminal.
+![Configuración del PATH de sbt](IMG/verificacion-java-17-y-configuracion-path-sbt.png)
+![Verificación de Java 17 y sbt](IMG/verificacion-java-jdk17-y-prueba-sbt.png)
 
----
+Finalmente, ejecuté los comandos `sbt compile` y `sbt run` en la terminal integrada de VS Code, compilando y mostrando los resultados correctamente.
 
-## Incidencias y soluciones
-
-Durante la configuración y prueba de este entorno surgió el siguiente inconveniente, que fue resuelto exitosamente:
-
-### Comando `sbt` no reconocido en la terminal integrada
-
-- **Problema:**  
-  Al intentar ejecutar `sbt compile` en la terminal de PowerShell dentro de VS Code, el sistema devolvió el error:  
-  `"El término 'sbt' no se reconoce como nombre de un cmdlet"`.
-
-- **Solución:**  
-  La ruta de los binarios instalados por Coursier no estaba expuesta al `PATH` de esa sesión de PowerShell. Se solucionó inyectando la ruta de la carpeta `bin` de Coursier directamente en la variable de entorno de la sesión actual:
-
-```powershell
-$env:PATH += ";C:\Users\HERNAN\AppData\Local\Coursier\data\bin"
-```
-
-Tras esto, `sbt` compiló y ejecutó el proyecto sin problemas.
+![Terminal ejecutando compilación y run](IMG/vscode-terminal-sbt-compile-y-run.png)
