@@ -15,14 +15,14 @@ Nombre y apellidos: Hernán
 ### Entorno 1
 JupyterLab + Almond Kernel
 
-[Ver documentación](<1.1 Entorno 1 — JupyterLab + Almond Kernel/README.md>)
+[Ver documentación](./1.1%20Entorno%201%20—%20JupyterLab%20+%20Almond%20Kernel%20+%20Scala%202.12.21/README.md)
 
 ### Entorno 2
 Visual Studio Code + Metals + sbt
 
-[Ver documentación](<1.2 Entorno 2 — Visual Studio Code + Metals/README.md>)
+[Ver documentación](./1.2%20Entorno%202%20—%20Visual%20Studio%20Code%20+%20Metals%20+%20sbt%20+%20Scala%202.12.21/README.md)
 
 ### Entorno 3
 IntelliJ IDEA Community + sbt
 
-[Ver documentación](<1.3 Entorno 3 — IntelliJ IDEA Community/README.md>)
+[Ver documentación](./1.3%20Entorno%203%20—%20IntelliJ%20IDEA%20Community%20+%20Scala%202.12.21/README.md)
